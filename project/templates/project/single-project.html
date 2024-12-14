@@ -1,0 +1,20 @@
+{% extends "main.html" %} {% block content %}
+<header>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/">Projects</a></li>
+      <li><a href="/">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<hr />
+<main>
+  <h1>Single Project</h1>
+  <h3>Title: {{ projectItem.title }}</h3>
+  <p>Description: {{ projectItem.description }}</p>
+</main>
+<footer>
+  <p>&copy; 2024 Your Company Name</p>
+</footer>
+{% endblock content %}
